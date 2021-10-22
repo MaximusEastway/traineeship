@@ -1,0 +1,11 @@
+{
+ 'vraag_start': 'heeft',
+ 'vraag_onderwerp': '4 poten',
+ 'ja': {
+  'vraag_start': 'heeft',
+  'vraag_onderwerp': 'hoeven',
+  'ja': 'paard',
+  'nee': 'huismus',
+}
+ 'nee': 'huismus',
+}
