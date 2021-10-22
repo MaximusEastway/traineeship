@@ -1,7 +1,0 @@
-Behave	213
-Cucumber	0
-Robot Framework	42
-one	monkey	monday
-two	cow	tuesday
-three	moose	wednesday
-four	dodo	thursday
