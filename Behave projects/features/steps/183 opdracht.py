@@ -1,3 +1,5 @@
+from behave import *
+
 @given(u'There is an empty text file available to us')
 def step_impl(context):
     context.filename = "./opdracht.txt"
