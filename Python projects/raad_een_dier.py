@@ -42,8 +42,13 @@ def parse_nieuwe_vraag(nieuwe_vraag):
         split_str = " het "
     elif " hij " in nieuwe_vraag:
         split_str = " hij "
+    else:
+        split_str = None
 
-    vraag_items = nieuwe_vraag.split(split_str)
+    if split_str != None:
+        vraag_items = nieuwe_vraag.split(split_str)
+    else:
+        vraag_items = []
 
     if len(vraag_items) != 2:
         herstelde_vraag = input("Ik kon je vraag niet goed verwerken. Probeer hem anders te stellen.")
